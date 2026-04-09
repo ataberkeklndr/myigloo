@@ -62,12 +62,12 @@ Be.manifesto.text     → "My Igloo is a creative technology studio..."
 Be.copyright          → "// Copyright © 2025"
 Be.rights             → "My Igloo\nAll Rights Reserved."
 Be.social             → [{name:"WEB",...}, {name:"MAIL",...}]
-Be.cubes              → [{title:"...Virtual Core Studio",...}, {title:"...SAW Studio",...}, {title:"...CasaStudio",...}]
+Be.cubes              → [{title:"...ORKA",...}, {title:"...SAW Studio",...}, {title:"...CasaStudio",...}]
 Be.links              → [{title:"Contact", url:"mailto:ataberkekalender@gmail.com", vdb:"peachesbody_64",...}]
 ```
 
 Portfolio cubes mapping (do NOT change `obj`/`innerobject` — these reference geometry and texture filenames):
-- Cube 1: `obj:"cube3"`, `innerobject:"pudgy"` → Virtual Core Studio
+- Cube 1: `obj:"cube3"`, `innerobject:"pudgy"` → ORKA
 - Cube 2: `obj:"cube1"`, `innerobject:"overpass_logo"` → SAW Studio
 - Cube 3: `obj:"cube2"`, `innerobject:"abstractlogo"` → CasaStudio
 
@@ -104,7 +104,7 @@ Volume textures for footer 3D shapes: `volumes/*.ktx2` (64x64x64 or 32x32x32, RG
 
 Hash-based SPA routing:
 - `/` → Home scene (igloo on mountain, shattered ring)
-- `/portfolio/:project` → Detail view (`virtualcore-studio`, `saw-studio`, `casastudio`)
+- `/portfolio/:project` → Detail view (`orka`, `saw-studio`, `casastudio`)
 
 ## Making Modifications
 
